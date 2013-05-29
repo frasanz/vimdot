@@ -1,22 +1,21 @@
-syntax on
-
-all pathogen#runtime_append_all_bundles()
+call pathogen#infect()
 call pathogen#helptags()
-
 set shiftwidth=2
 set tabstop=2
 set smartindent
 set nocompatible
 set number
-filetype plugin on
+
+syntax enable
+set background=dark
 set t_Co=256
+let g:solarized_termcolors=256
+colorscheme solarized
 
-if exists('+colorcolumn')
-	set colorcolumn=80
-else
-	au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
-endif
-
+filetype plugin on
+set textwidth=79
+set formatoptions=qrn1
+set colorcolumn=85
 let Tlist_Ctags_Cmd = "/usr/bin/ctags"
 let Tlist_WinWidth = 50
 map <F4> :TlistToggle<cr>
