@@ -10,7 +10,7 @@ syntax enable
 set background=dark
 set t_Co=256
 let g:solarized_termcolors=256
-colorscheme solarized
+colorscheme molokai
 
 filetype plugin on
 set textwidth=79
