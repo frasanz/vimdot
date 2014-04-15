@@ -3,9 +3,10 @@ call pathogen#helptags()
 set shiftwidth=2
 set tabstop=2
 set smartindent
+set expandtab
 set nocompatible
 set number
-
+ 
 syntax enable
 set background=dark
 set t_Co=256
