@@ -19,3 +19,12 @@
 [submodule "bundle/fireplace"]
 	path = bundle/fireplace
 	url = https://github.com/tpope/vim-fireplace.git
+[submodule "bundle/vim-leiningen"]
+	path = bundle/vim-leiningen
+	url = git://github.com/tpope/vim-leiningen.git
+[submodule "bundle/projectionist"]
+	path = bundle/projectionist
+	url = git://github.com/tpope/vim-projectionist.git
+[submodule "bundle/dispatch"]
+	path = bundle/dispatch
+	url = git://github.com/tpope/vim-dispatch.git
