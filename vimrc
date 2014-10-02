@@ -14,6 +14,7 @@ let g:solarized_termcolors=256
 colorscheme molokai
 
 filetype plugin on
+filetype plugin indent on
 set textwidth=79
 set formatoptions=qrn1
 set colorcolumn=85
