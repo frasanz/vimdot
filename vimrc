@@ -3,9 +3,10 @@ call pathogen#helptags()
 set shiftwidth=2
 set tabstop=2
 set smartindent
+set expandtab
 set nocompatible
 set number
-
+ 
 syntax enable
 set background=dark
 set t_Co=256
@@ -22,7 +23,12 @@ map <F4> :TlistToggle<cr>
 
 map <F8> :!/usr/bin/ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
+<<<<<<< HEAD
 set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
+=======
+
+set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
+>>>>>>> refs/remotes/origin/master
 
 " Always show statusline
 set laststatus=2
