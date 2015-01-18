@@ -14,7 +14,6 @@ let g:solarized_termcolors=256
 colorscheme molokai
 
 filetype plugin on
-filetype plugin indent on
 set textwidth=79
 set formatoptions=qrn1
 set colorcolumn=85
@@ -24,12 +23,8 @@ map <F4> :TlistToggle<cr>
 
 map <F8> :!/usr/bin/ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
-<<<<<<< HEAD
-set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
-=======
 
 set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
->>>>>>> refs/remotes/origin/master
 
 " Always show statusline
 set laststatus=2
